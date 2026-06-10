@@ -1,4 +1,27 @@
-# Plant Disease Detection using Transfer Learning (ResNet18)
+# PyTorch Computer Vision
+
+A comprehensive collection of PyTorch-based Computer Vision notebooks and projects covering:
+
+* PyTorch Fundamentals
+* Dataset and DataLoader
+* CNN Architecture
+* Model Evaluation
+* Transfer Learning
+* Plant Disease Detection using ResNet18
+
+## Repository Contents
+
+### Learning Notebooks
+
+* 01 - PyTorch Basics
+* 02 - Dataset and DataLoader
+* 03 - CNN Architecture
+* 04 - Model Evaluation
+* 05 - Transfer Learning
+
+### End-to-End Project
+
+# Plant Disease Detection using ResNet18
 
 ## Project Overview
 
