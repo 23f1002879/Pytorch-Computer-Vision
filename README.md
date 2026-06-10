@@ -90,7 +90,7 @@ nn.Sequential(
 | Learning Rate | 1e-4             |
 | Loss Function | CrossEntropyLoss |
 | Epochs        | 5                |
-| Batch Size    | 64               |
+| Batch Size    | 32               |
 | Image Size    | 224 × 224        |
 
 ### Data Augmentation
@@ -129,7 +129,7 @@ std  = [0.229, 0.224, 0.225]
 
 ---
 
-## 📊 Classification Report Summary
+## Classification Report Summary
 
 The model achieved near-perfect performance across most disease categories.
 
@@ -151,7 +151,7 @@ These categories exhibit higher visual similarity with related disease classes.
 
 ---
 
-## 🧪 Evaluation
+## Evaluation
 
 ### Validation Accuracy
 
@@ -175,26 +175,36 @@ The model demonstrates excellent generalization with only a 0.16% gap between tr
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
-PlantDiseaseDetection/
+PYTORCH-COMPUTER-VISION/
 │
 ├── assets/
 │   ├── training_curves_accuracy.png
-│   ├── training_curves_loss.png
-│   ├── confusion_matrix.png
-│   └── prediction_demo.png
+│   └── training_curves_loss.png
 │
-├── PlantDiseaseDetection.ipynb
-├── plant_disease_resnet18.pth
+├── notebooks/
+│   ├── 01_PyTorch_Basics.ipynb
+│   ├── 02_Dataset_Dataloader.ipynb
+│   ├── 03_CNN_Architecture.ipynb
+│   ├── 04_Model_Evaluation.ipynb
+│   └── 05_Transfer_Learning.ipynb
+│
+├── projects/
+│   └── PlantDiseaseDetection.ipynb
+│
+├── models/
+│   └── plant_disease_resnet18.pth
+│
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-## 💾 Saving the Model
+## Saving the Model
 
 ```python
 torch.save(
@@ -216,7 +226,7 @@ torch.save(
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * PyTorch
